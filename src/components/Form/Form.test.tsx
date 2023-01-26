@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
-import React from "react";
-import Form from "./Form";
+
+import Form from "./index";
 
 test("when input is empty, new participants cannot be added", () => {
   render(<Form />);
